@@ -1,0 +1,208 @@
+@font-face{
+  font-family: TH-Krub;
+  src: url(../fonts/TH-Krub.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family: TH-Krub-Bold;
+  src: url(../fonts/TH-Krub-Bold.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family: TH-Krub-Bold-Italic;
+  src: url(../fonts/TH-Krub-Bold-Italic.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family: TH-Krub-Italic;
+  src: url(../fonts/TH-Krub-Italic.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family: bank-gothic-light;
+  src: url(../fonts/bank-gothic-light.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family: bank-gothic-medium;
+  src: url(../fonts/bank-gothic-medium.ttf);
+  font-style: normal;
+  font-variant:initial;
+}  
+@font-face{
+  font-family: Linearicons-Free;
+  src: url(../fonts/Linearicons-Free.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+ 
+/*html {
+  scroll-behavior: smooth;
+}*/
+.none-pad{
+  padding: 0px 0px 0px 0px !important;
+} 
+.none-pad-r{
+  padding: 0px 5px 0px 0px !important;
+} 
+.none-right{
+  margin-right: -15px;
+} 
+.none-left{
+  margin-left: -15px;
+} 
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+ 
+.navbar-toggler-left .fa-bars{
+  color: #fff !important;
+}
+@media only screen and (max-width: 991px) { /* MOBILE */
+  .mb-x{
+    display: none !important;
+  }
+  .none-xs{
+    padding: 0px 0px 0px 0px !important;
+  }   
+}
+@media only screen and (min-width: 992px) { /* PC */
+  .pc-x{
+    display: none !important;
+  }  
+}
+
+ 
+a:hover{
+  text-decoration: none;
+}
+/*.banner {
+  height: 100vh;
+}*/ 
+
+
+.index{
+  background-image: url("../images/bg.jpg"); 
+  height: 100vh;  
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-en{
+  color: #fff;
+  font-family: bank-gothic-medium;
+  background-color: #404041;
+  font-size: 20px;
+  padding: 7px 30px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  position: absolute;  
+  text-align: center; 
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden; 
+  display: inline-block;
+  
+}
+
+.btn-en:hover{
+  color: #fff; 
+  background-color: #000; 
+}
+
+   
+.shine {
+  height: 100vh; 
+  background-image: linear-gradient(
+    to right,
+    transparent 33%,
+    rgba(255,255,255,0.3) 50%,
+    transparent 66%
+  );
+  background-size:300% 100%;
+  animation: shine 1s ; /*infinite*/
+}
+
+@keyframes shine {
+  0% {
+    background-position: right;    
+  }
+  100% {
+    opacity: 0;
+    background-position: left;  
+  }
+}
+.index .box-text{
+  position: absolute;
+  top: 45%;
+  left: 20%;   
+  transform: translate(-50%, -50%); 
+  border-left: 2px solid #231f20;
+  padding:10px 15px;
+}
+.index .box-text h5{ 
+  font-family: bank-gothic-medium;
+  color: #231f20;
+  font-size: 20px; 
+  margin-bottom: 0px;
+}
+.index .box-text h5 span{ 
+  font-family: TH-Krub-Bold;  
+  font-size: 30px;
+}
+.navbar .navbar-nav .nav-item  {
+  margin-left: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+  color: #fff;
+  font-family: bank-gothic-medium;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+  opacity: .65;
+}
+.navbar .navbar-nav .nav-item .nav-link span{
+  color: #e1a67a;
+  font-family: TH-Krub-Bold;
+  font-size: 20px;
+}
+
+.book{
+  background-image: url("../images/book-bg.png"); 
+  height: 100vh;  
+  min-height: 100vh;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% ;
+}
+
+.shelf{
+  background-image: url("../images/Shelf.png");  
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-bottom: 32px;
+  margin-top: 60px;
+  transition-delay: .2s;
+  position: relative; 
+}
+
+.shelf .bookx{ 
+  margin-top: 20px;
+}
+.shelf .bookx img:hover {  
+  /*transition-delay: .2s;*/
+  transform:scale(1.03);
+}
