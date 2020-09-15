@@ -99,7 +99,7 @@ a:hover{
   text-transform: capitalize;
   position: absolute;  
   text-align: center; 
-  top: 85%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden; 
@@ -111,6 +111,7 @@ a:hover{
   color: #fff; 
   background-color: #000; 
 }
+
 
    
 .shine {
@@ -199,7 +200,7 @@ a:hover{
   background-image: url("../images/Shelf.png");  
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: auto 35px;
   padding-bottom: 32px;
   margin-top: 60px;
   transition-delay: .2s;
@@ -219,7 +220,7 @@ a:hover{
   background-image: url("../images/Shelf2.png");  
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: auto 35px;
   padding-bottom: 32px;
   margin-top: 60px;
   transition-delay: .2s;
@@ -245,18 +246,16 @@ a:hover{
 
 .contact .a1{
   color: #000;
-  font-family: TH-Krub-Bold;
-  font-size: 20px;  
+  font-family: TH-Krub-Bold; 
   text-transform: capitalize;
   position: absolute;  
 }
 
-.contact .a2{
+.contact .a2 a{
   color: #000;
-  font-family: TH-Krub-Bold;
-  font-size: 20px;  
+  font-family: TH-Krub-Bold; 
   text-transform: capitalize;
-  position: absolute;    
+  
 }
 
 .contact .a1 img{
@@ -498,16 +497,33 @@ h1.frame:before{
 
   .contact .a1{ 
     top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
+    left: 0; 
+    margin-left: 25%;
     line-height: 25px;
   }
 
   .contact .a2{ 
     top: 55%;
-    left: 45%;
-    transform: translate(-50%, -50%); 
+    left: 0; 
+    margin-left: 25%;
+    position: absolute;    
   }
+  .signaturex{
+    position: absolute;  
+    top: 80%;
+    right: 0;
+    margin-right: -50px;
+    transform: translate(-50%, -50%);  
+    width: 160px;
+  }
+  .contact .a1{ 
+    font-size: 18px;   
+  }
+
+  .contact .a2 a{ 
+    font-size: 18px;    
+  }
+
 }
 @media only screen and (min-width: 992px) { /* PC */
   .news p.p2{
@@ -581,20 +597,36 @@ h1.frame:before{
 
   .contact .botx{ 
     bottom: 5%;
-    right: 0%;
-    font-size: 20px;  
+    right: 5%;
+    font-size: 16px;  
   }
 
   .contact .a1{ 
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
+    top: 50%; 
+    left: 0%;
+    margin-left: 40%; 
     line-height: 25px;
   }
 
   .contact .a2{ 
-    top: 75%;
-    left: 45%;
-    transform: translate(-50%, -50%); 
+    top: 63%; 
+    left: 0;
+    margin-left: 40%; 
+    position: absolute;    
+  } 
+  .signaturex{
+    position: absolute;  
+    top: 80%;
+    right: 10%;
+    transform: translate(-50%, -50%);  
+    width: 320px;
   }
+  .contact .a1{ 
+    font-size: 20px;   
+  }
+
+  .contact .a2 a{ 
+    font-size: 20px;    
+  }
+
 }
