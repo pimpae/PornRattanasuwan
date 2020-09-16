@@ -230,9 +230,7 @@ a:hover{
 .shelf2 .bookx{ 
   margin-top: 20px;
 }
-.shelf2 .bookx img {  
-  max-width: 240px;
-}
+
 .shelf2 .bookx img:hover {  
   /*transition-delay: .2s;*/
   transform:scale(1.03);
@@ -612,17 +610,17 @@ h1.frame:before{
   }
 
   .contact .a2{ 
-    top: 63%; 
+    top: 66%; 
     left: 0;
     margin-left: 40%; 
     position: absolute;    
   } 
   .signaturex{
     position: absolute;  
-    top: 80%;
-    right: 10%;
+    top: 83%;
+    right: 8%;
     transform: translate(-50%, -50%);  
-    width: 320px;
+    width: 260px;
   }
   .contact .a1{ 
     font-size: 20px;   
@@ -630,6 +628,9 @@ h1.frame:before{
 
   .contact .a2 a{ 
     font-size: 20px;    
+  }
+  .shelf2 .bookx img {  
+    max-width: 240px;
   }
 
 }
