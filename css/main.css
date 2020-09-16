@@ -197,11 +197,11 @@ a:hover{
 }
 
 .shelf{
-  background-image: url("../images/Shelf.png");  
+  background-image: url("../images/E-BooksShadow.png");  
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-size: auto 35px;
-  padding-bottom: 32px;
+  background-size: 100% 120px;
+  padding-bottom: 110px;
   margin-top: 60px;
   transition-delay: .2s;
   position: relative; 
@@ -217,11 +217,11 @@ a:hover{
 
 
 .shelf2{
-  background-image: url("../images/Shelf2.png");  
+  background-image: url("../images/AudioShadow.png");  
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-size: auto 35px;
-  padding-bottom: 32px;
+  background-size: 100% 130px;
+  padding-bottom: 127px;
   margin-top: 60px;
   transition-delay: .2s;
   position: relative; 
@@ -229,6 +229,9 @@ a:hover{
 
 .shelf2 .bookx{ 
   margin-top: 20px;
+}
+.shelf2 .bookx img {  
+  max-width: 240px;
 }
 .shelf2 .bookx img:hover {  
   /*transition-delay: .2s;*/
