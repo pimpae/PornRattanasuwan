@@ -189,7 +189,7 @@ a:hover{
   background-repeat: no-repeat; 
 }
 .audio{
-  background-image: url("https://i.ibb.co/k9np0Wz/audiobg.jpg"); 
+  background-image: url("../images/audiobg.jpg"); 
   height: 100vh;  
   min-height: 100vh;
   background-position: center top;
