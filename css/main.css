@@ -109,9 +109,20 @@ a:hover{
   color: #fff; 
   background-color: #000; 
 }
+.btn-nn{ 
+  position: absolute;  
+  text-align: center; 
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden; 
+  display: inline-block;
+  
+}
+.btn-nn img{  
+  width: 220px;
+} 
 
-
-   
 .shine {
   height: 100vh; 
   background-image: linear-gradient(
@@ -162,9 +173,7 @@ a:hover{
 
 .navbar .navbar-nav .nav-item .nav-link.ct{
   color: #231f20;
-  font-family: bank-gothic-medium;
-  font-size: 20px;
-  line-height: 20px;
+  font-family: bank-gothic-medium; 
   text-transform: capitalize;
 }
 .navbar .navbar-nav .nav-item .nav-link.ct:hover{
@@ -172,8 +181,7 @@ a:hover{
 }
 .navbar .navbar-nav .nav-item .nav-link.ct span{
   color: #757370;
-  font-family: TH-Krub-Bold;
-  font-size: 20px;
+  font-family: TH-Krub-Bold; 
 }
 
 .book{
@@ -518,13 +526,13 @@ h1.frame:before{
     font-size: 18px;    
   }
   .navbar .navbar-nav .nav-item .nav-link{ 
-    font-size: 14px;
+    font-size: 16px;
     line-height: 16px; 
     padding-left: 0px;
     padding-right: 0px;
   }
   .navbar .navbar-nav .nav-item .nav-link span{ 
-    font-size: 14px;
+    font-size: 16px;
   }
   .btn-en{ 
     font-size: 16px;
@@ -537,6 +545,16 @@ h1.frame:before{
   .ff2{
     font-size: 20px;
     color: #000;
+  }
+   .navbar .navbar-nav .nav-item  { 
+    margin-top: 0px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link.ct{ 
+    font-size: 16px;
+    line-height: 16px; 
+  } 
+  .navbar .navbar-nav .nav-item .nav-link.ct span{ 
+    font-size: 16px;
   }
 }
 @media only screen and (min-width: 992px) { /* PC */
@@ -663,6 +681,14 @@ h1.frame:before{
     font-size: 20px;
     padding: 7px 30px; 
   }
+  .navbar .navbar-nav .nav-item .nav-link.ct{ 
+    font-size: 20px;
+    line-height: 20px; 
+  } 
+  .navbar .navbar-nav .nav-item .nav-link.ct span{ 
+    font-size: 20px;
+  }
+
 }
  
 
