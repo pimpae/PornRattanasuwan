@@ -424,18 +424,8 @@ h1.frame:before{
   margin-top: 15px;
   margin-left: 15px;
 }
-.sub-x{
-  margin-bottom: 30px;
-}
 
-.sub-x a p{
-  font-family: TH-Krub;
-  font-size: 30px;
-  color: #fff; 
-  width: 100%;
-  text-align: center;
-  margin-top: -55px;
-}
+
 
 .sub-x a:hover p{
   opacity: .55; 
@@ -576,7 +566,25 @@ h1.frame:before{
   .navbar .navbar-nav .nav-item .nav-link.ct span{ 
     font-size: 14px;
   }
+  .sub-x{
+    margin-bottom: 15px;
+  }
+  .sub-x a img{
+    height: 40px;
+    width: 300px;
+  }
+  .sub-x a p{
+    font-family: TH-Krub;
+    font-size: 18px;
+    color: #fff; 
+    width: 100%;
+    text-align: center;
+    margin-top: -33px;
+    vertical-align: middle;
+    height: 40px;
+  }
 }
+ 
 @media only screen and (min-width: 992px) { /* PC */
   .news p.p2{
     text-align: right;
@@ -702,17 +710,21 @@ h1.frame:before{
   .navbar .navbar-nav .nav-item .nav-link.ct span{ 
     font-size: 20px;
   }
-
-}
- 
- 
-@media only screen and (width: 768px) { /* MOBILE */
+  .sub-x{
+    margin-bottom: 30px;
+  }
+  .sub-x a img{
+    height: 60px;
+    width: 300px;
+  }
   .sub-x a p{
     font-family: TH-Krub;
-    font-size: 24px;
+    font-size: 30px;
     color: #fff; 
     width: 100%;
     text-align: center;
-    margin-top: -40px;
+    margin-top: -55px;
+    vertical-align: middle;
+    height: 60px;
   }
-}
+} 
